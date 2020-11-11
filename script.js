@@ -64,7 +64,7 @@ $("#citySearchBtn").on("click", function(event){
     if(cityname === ""){
         alert("Please enter a city to look up")
 
-    }else if (cityList.length >= 5){  
+    }else if (cityList.length >= 10){  
         cityList.shift();
         cityList.push(cityname);
 
