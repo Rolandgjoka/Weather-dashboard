@@ -35,6 +35,7 @@ function initCityList() {
 // This function pull the current city into local storage to display on reload
 function initWeather() {
     var storedWeather = JSON.parse(localStorage.getItem("currentCity"));
+    
 
     if (storedWeather !== null) {
         cityname = storedWeather;

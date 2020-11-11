@@ -20,6 +20,9 @@ h3, h4, h5{
     height: 4rem;
     margin-bottom: 0px;
 }
+.card-mb-3-mt-3-body{
+    background-color: skyblue;
+}
 
 .low{
     border-radius: 6px;
