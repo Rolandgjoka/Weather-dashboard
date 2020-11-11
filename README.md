@@ -11,4 +11,4 @@ The following image shows the web application's appearance and functionality:
 ![Weather Dashboard demo](./WeatherDashboard.png)
 
 ## Installation
-[Project_Link] (r)
+[Project_Link] (https://rolandgjoka.github.io/Weather-dashboard/)
