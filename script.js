@@ -1,7 +1,7 @@
 // Global variable declarations
 var cityList = [];
 var cityname;
-
+const clearEl = document.getElementById("clear-history");
 // local storage functions
 initCityList();
 initWeather();
@@ -193,5 +193,10 @@ function historyDisplayWeather(){
     console.log(cityname);
     
 }
+clearEl.addEventListener("click",function() {
+    cityList = [];
+    renderCities();
+})
+
 
 $(document).on("click", ".city", historyDisplayWeather);
